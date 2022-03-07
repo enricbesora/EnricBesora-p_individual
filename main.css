@@ -1,12 +1,14 @@
 .mainButton{
+    display: block;
     font-size: 20px;
-	width: 30%;
-	height: 20%;
-    color: blueviolet;
+    width: 10%;
+    height: 20%;
+    background-color: aquamarine
 }
 .titol{
+    display: block;
     font-size: 40px;
 }
 body{
-    background-color: aquamarine;
+    background-color: aliceblue;
 }
