@@ -1,3 +1,3 @@
 function redirectIndex(){
-    loadpage("./pi_2/index.html");
+	window.location.assign("./pi_2/");
 }
