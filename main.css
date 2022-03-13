@@ -1,5 +1,4 @@
 .button-menu {
-    background-color: aquamarine;
     grid-column: 6;
     grid-row: 2;
     width: 300px;
@@ -17,6 +16,7 @@
     font-size: 22px;
     width: 325px;
     height: 85px;
+    background-color: aquamarine;
 }
 .titol {
     display: block;
