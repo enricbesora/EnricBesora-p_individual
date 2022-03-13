@@ -1,13 +1,32 @@
-.button-menu{
-    font-size: 20px;
-    width: 10%;
-    height: 20%;
-    background-color: aquamarine
+.button-menu {
+    background-color: aquamarine;
+    grid-column: 7;
+    grid-row: 2;
 }
-.titol{
+.button-menu:active {
+    font-size: 18px;
+    width: 275px;
+    height: 70px;
+}
+
+.button-menu:hover:not(:active) {
+    font-size: 22px;
+    width: 325px;
+    height: 85px;
+    background-color: aquamarine;
+}
+.titol {
     display: block;
     font-size: 40px;
+    grid-column: 5/10;
+    grid-row: 1;
+    text-align:center;
+    font-style: italic;
+    font-family: cursive;
 }
-body{
+body {
     background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0,1fr));
+    grid-gap: 20px;
 }
