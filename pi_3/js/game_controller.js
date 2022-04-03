@@ -20,18 +20,21 @@ var game = new Vue({
 		var json = localStorage.getItem("config") || '{"cards":2,"dificulty":"hard"}';
 		options_data = JSON.parse(json);
 		this.num_cards = options_data.cards;
-		this.time = 700;
 		switch (options_data.dificulty){
 			case 'easy':
+				this.time = 2000;
 				dificultyMultiplier = 5;
 				break;
 			case 'normal':
+				this.time = 700;
 				dificultyMultiplier = 10;
 				break;
 			case 'hard':
+				this.time = 200;
 				dificultyMultiplier = 20;
 				break;
 			default:
+				this.time = 700;
 				dificultyMultiplier = 10;
 				break;
 		}
